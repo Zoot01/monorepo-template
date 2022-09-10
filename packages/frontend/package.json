@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "precommit": "echo 'frontend pre-commit'"
+    "precommit": "eslint"
   },
   "eslintConfig": {
     "extends": [
