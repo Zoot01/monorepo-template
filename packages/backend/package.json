@@ -7,7 +7,7 @@
     "start": "tsc && node dist/server.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "precommit": "echo 'backend pre-commit'"
+    "precommit": "eslint ."
   },
   "keywords": [],
   "author": "",
